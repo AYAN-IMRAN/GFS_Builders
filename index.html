@@ -86,19 +86,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About us</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Media</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a href="booking.html" class="dropdown-item"></a>
-                        <a href="team.html" class="dropdown-item">Projects</a>
-                        <a href="testimonial.html" class="dropdown-item">blogs</a>
-                        >
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="#home" id="home" class="nav-item nav-link active">Home</a>
+                <a href="#About" id="about" class="nav-item nav-link">About</a>
+                <a href="#project" id="project" class="nav-item nav-link">Services</a>
+                <a href="https://web.telegram.org/k/#@MyGFS_bot" class="nav-item nav-link">telegram</a>
+                <a href="#contact" id="contact" class="nav-item nav-link">Contact</a>
             </div>
             <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
                     class="fa fa-arrow-right ms-3"></i></a>
@@ -108,6 +100,7 @@
 
 
     <!-- Carousel Start -->
+     <section #home>
     <div class="container-fluid p-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -143,6 +136,7 @@
 
             </div>
         </div>
+    </section>
         <!-- Carousel End -->
 
 
@@ -152,6 +146,7 @@
 
 
         <!-- About Start -->
+         <section #about>
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5">
@@ -196,6 +191,7 @@
                 </div>
             </div>
         </div>
+    </section>
         <!-- About End -->
 
 
@@ -203,6 +199,7 @@
 
 
         <!-- Service Start -->
+         <section #projects>
         <div class="container-xxl service py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -245,10 +242,12 @@
                 </div>
             </div>
         </div>
+    </section>
         <!-- Service End -->
 
 
         <!-- Booking Start -->
+         <section #contact>
         <div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="row gx-5">
@@ -263,7 +262,7 @@
                         <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn"
                             data-wow-delay="0.6s">
                             <h1 class="text-white mb-4">Contact Us</h1>
-                            <form >
+                            <form action="https://formsubmit.co/ayanimranayanahmed@gmail.com" method="POST>
                                 <div class="row g-3">
                                     <div class="col-12 col-sm-6">
                                         <input type="text" class="form-control border-0" placeholder="Your Name"
@@ -273,21 +272,14 @@
                                         <input type="email" class="form-control border-0" placeholder="Your Email"
                                             style="height: 55px;">
                                     </div>
-                                    <div class="col-12 col-sm-6">
-                                        <select class="form-select border-0" style="height: 55px;">
-                                            <option selected>Select A Service</option>
-                                            <option value="1">Service 1</option>
-                                            <option value="2">Service 2</option>
-                                            <option value="3">Service 3</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 col-sm-6">
+                                  
+                                    <!-- <div class="col-12 col-sm-6">
                                         <div class="date" id="date1" data-target-input="nearest">
                                             <input type="text" class="form-control border-0 datetimepicker-input"
                                                 placeholder="Service Date" data-target="#date1"
                                                 data-toggle="datetimepicker" style="height: 55px;">
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-12">
                                         <textarea class="form-control border-0"
                                             placeholder="Special Request"></textarea>
@@ -302,6 +294,7 @@
                 </div>
             </div>
         </div>
+    </section>
         <!-- Booking End -->
 
 
@@ -390,7 +383,7 @@
         <script type="text/javascript">
             (function(d, m){
                 var kommunicateSettings = 
-                    {"appId":"34068d4e60b696bb11d294621d2d25e7d","popupWidget":true,"automaticChatOpenOnNavigation":true};
+                    {"appId":"2f999940823b03554caba110e773cb05c","popupWidget":true,"automaticChatOpenOnNavigation":true};
                 var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
                 s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
                 var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
@@ -398,7 +391,6 @@
             })(document, window.kommunicate || {});
         /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
         </script>
-       
         <script src="js/main.js"></script>
 </body>
 
